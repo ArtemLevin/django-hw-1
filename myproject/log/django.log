@@ -1,0 +1,149 @@
+Watching for file changes with StatReloader
+C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+"GET /about_me_html HTTP/1.1" 301 0
+Internal Server Error: /about_me_html/
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py", line 31, in about_me_html
+    return render(request, "about_me.html")
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about_me.html
+"GET /about_me_html/ HTTP/1.1" 500 77832
+Internal Server Error: /about_me_html/
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py", line 31, in about_me_html
+    return render(request, "about_me.html")
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about_me.html
+"GET /about_me_html/ HTTP/1.1" 500 77969
+C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about_me_html/
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py", line 31, in about_me_html
+    return render(request, "about_me.html")
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about_me.html
+"GET /about_me_html/ HTTP/1.1" 500 78373
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Internal Server Error: /about_me_html/
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py", line 31, in about_me_html
+    return render(request, "about_me.html")
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\PC\Desktop\django_lections\django_lections_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about_me.html
+"GET /about_me_html/ HTTP/1.1" 500 78236
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+C:\Users\PC\Desktop\django_lections\django_lections_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about_me_html/ HTTP/1.1" 200 126
+"GET /about_me_html/ HTTP/1.1" 200 160
+"GET /about_me_html/ HTTP/1.1" 200 4221
+Not Found: /about_me_html/assets/html/mr-camel.jpg
+"GET /about_me_html/assets/html/mr-camel.jpg HTTP/1.1" 404 2883
+"GET /about_me_html/ HTTP/1.1" 200 4221
+Not Found: /about_me_html/assets/html/mr-camel.jpg
+"GET /about_me_html/assets/html/mr-camel.jpg HTTP/1.1" 404 2883
+"GET /about_me_html/ HTTP/1.1" 200 4216
+Not Found: /about_me_html/assets/mr-camel.jpg
+"GET /about_me_html/assets/mr-camel.jpg HTTP/1.1" 404 2868
+"GET /about_me_html/ HTTP/1.1" 200 4216
+Not Found: /about_me_html/assets/mr.camel.jpg
+"GET /about_me_html/assets/mr.camel.jpg HTTP/1.1" 404 2868
+"GET /about_me_html/ HTTP/1.1" 200 4214
+Not Found: /about_me_html/assets/mr.camel.jpg
+"GET /about_me_html/assets/mr.camel.jpg HTTP/1.1" 404 2868
+Watching for file changes with StatReloader
+"GET /about_me_html/ HTTP/1.1" 200 4214
+Not Found: /about_me_html/assets/mr.camel.jpg
+"GET /about_me_html/assets/mr.camel.jpg HTTP/1.1" 404 2868
+"GET /about_me_html/ HTTP/1.1" 200 4216
+Not Found: /about_me_html/assets/mr.camel.jpg
+"GET /about_me_html/assets/mr.camel.jpg HTTP/1.1" 404 2868
+"GET /about_me_html/ HTTP/1.1" 200 4207
+Not Found: /about_me_html/mr.camel.jpg
+"GET /about_me_html/mr.camel.jpg HTTP/1.1" 404 2847
+"GET /about_me_html/ HTTP/1.1" 200 4207
+Not Found: /about_me_html/mr.camel.jpg
+"GET /about_me_html/mr.camel.jpg HTTP/1.1" 404 2847
+"GET /about_me_html/ HTTP/1.1" 200 4209
+Not Found: /about_me_html/mr.camel.jpg
+"GET /about_me_html/mr.camel.jpg HTTP/1.1" 404 2847
+"GET /about_me_html/ HTTP/1.1" 200 4209
+Not Found: /about_me_html/mr.camel.jpg
+"GET /about_me_html/mr.camel.jpg HTTP/1.1" 404 2847
+"GET /about_me_html/ HTTP/1.1" 200 4216
+"GET /about_me_html/ HTTP/1.1" 200 4195
+Not Found: /about_me_html/mr.camel.jpg
+"GET /about_me_html/mr.camel.jpg HTTP/1.1" 404 2847
+"GET /about_me_html/ HTTP/1.1" 200 4195
+Not Found: /about_me_html/mr.camel.jpg
+"GET /about_me_html/mr.camel.jpg HTTP/1.1" 404 2847
+"GET /about_me_html/ HTTP/1.1" 200 4240
+"GET /about_me_html/ HTTP/1.1" 200 4254
+"GET /about_me_html/ HTTP/1.1" 200 4271
+"GET /about_me_html/ HTTP/1.1" 200 4271
+"GET /about_me_html/ HTTP/1.1" 200 4271
+"GET /about_me_html/ HTTP/1.1" 200 4297
+"GET /about_me_html/ HTTP/1.1" 200 4274
+"GET /about_me_html/ HTTP/1.1" 200 4327
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Head and tails page accessed
+"GET /heads_and_tails/ HTTP/1.1" 200 13
+"GET /about_me_html/ HTTP/1.1" 200 4095
